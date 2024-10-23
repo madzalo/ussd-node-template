@@ -1,0 +1,46 @@
+{
+    "name": "@types/helmet",
+    "version": "0.0.48",
+    "description": "TypeScript definitions for helmet",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Cyril Schumacher",
+            "url": "https://github.com/cyrilschumacher",
+            "githubUsername": "cyrilschumacher"
+        },
+        {
+            "name": "Evan Hahn",
+            "url": "https://github.com/EvanHahn",
+            "githubUsername": "EvanHahn"
+        },
+        {
+            "name": "Elliot Blackburn",
+            "url": "https://github.com/bluehatbrit",
+            "githubUsername": "bluehatbrit"
+        },
+        {
+            "name": "Daniel Müller",
+            "url": "https://github.com/chdanielmueller",
+            "githubUsername": "chdanielmueller"
+        },
+        {
+            "name": "Piotr Błażejewicz",
+            "url": "https://github.com/peterblazejewicz",
+            "githubUsername": "peterblazejewicz"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/helmet"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/express": "*"
+    },
+    "typesPublisherContentHash": "1e80e0540122bcd46ceaf307b5d864740296c71d67cf94fccbfa21b523f41873",
+    "typeScriptVersion": "3.1"
+}
