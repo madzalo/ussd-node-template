@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
-
+import ussd from './routes';
 /* ROUTE IMPORTS */
 
 /* CONFIGURATIONS */
@@ -28,6 +28,8 @@ app.use(cors());
 app.get('/', (req, res) => {
   res.send('This is home route');
 });
+
+app.use('/api/v1/ussd', ussd);
 
 /* SERVER */
 const PORT = Number(process.env.PORT) || 8000;
